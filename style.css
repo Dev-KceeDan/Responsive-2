@@ -45,6 +45,8 @@ header {
 header section nav {
   display: flex;
   flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 
 header section nav div {
@@ -52,7 +54,6 @@ header section nav div {
 }
 #img-cont {
   text-align: left;
-  /* padding-left: 2em; */
 }
 nav #btn-cont {
   text-align: right;
@@ -262,8 +263,16 @@ footer > figure img {
   padding-bottom: 1.6em;
 }
 
+#f-sect-1 .wrap span {
+  justify-content: center;
+  align-items: center;
+}
+
 #f-sect-1 .wrap img {
   margin-right: 1.5em;
+  justify-content: center;
+  align-items: center;
+  padding-top: 3px;
 }
 
 #f-sect-4 {
